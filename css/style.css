@@ -9,6 +9,7 @@
     height: 120px;
     display: flex;
     background-color: aquamarine;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -50,13 +51,60 @@
 
 .area {
     width: 100%;
-    height: 80vh;
+    height: 75vh;
+    display: flex;
 }
 
 .text-area {
     width: 50%;
+    margin-left: 60px;
+}
+
+.text-area h1 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: green;
+}
+
+.text-area p {
+    padding-bottom: 40px;
+    color: rgb(6, 158, 120);
+    text-align: justify;
+    font-size: 20px;
+}
+
+.text-area a {
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 3px solid green;
+    color: green;
+    background-color: aquamarine;
+    border-radius: 50px;
+    font-size: 20px;
 }
 
 .img-area {
     width: 50%;
+    height: 70vh;
+}
+
+.img-area img {
+    margin-left: 30px;
+}
+
+.person {
+    width: 45%;
+    height: 70vh;
+    padding-left: 50px;
+}
+
+.about-text {
+    margin-top: 120px;
+    margin-right: 50px;
+}
+
+.area-background {
+    background-image: url(../images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
