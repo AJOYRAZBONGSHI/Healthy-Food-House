@@ -60,6 +60,10 @@
     margin-left: 60px;
 }
 
+.text-area span {
+    color: rgb(50, 248, 182);
+}
+
 .text-area h1 {
     font-size: 50px;
     padding-bottom: 20px;
@@ -78,7 +82,7 @@
     padding: 15px 20px;
     border: 3px solid green;
     color: green;
-    background-color: aquamarine;
+    background-image: linear-gradient(90deg, rgb(75, 143, 245), aquamarine);
     border-radius: 50px;
     font-size: 20px;
 }
@@ -89,7 +93,9 @@
 }
 
 .img-area img {
-    margin-left: 30px;
+    margin-left: 100px;
+    width: 70%;
+    height: 70vh;
 }
 
 .person {
@@ -107,4 +113,60 @@
     background-image: url(../images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     margin-bottom: 80px;
+}
+
+.recipies h1 {
+    font-size: 50px;
+    color: green;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.recipies p {
+    padding: 15px 150px;
+    color: rgb(6, 158, 120);
+    text-align: ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.recipies-aitm {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.recipies-aitm1,
+.recipies-aitm2,
+.recipies-aitm3 {
+    width: 30%;
+    height: 70vh;
+    margin: 40px 0 0 40px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 25px;
+    /* text-align: center; */
+}
+
+.recipies-aitm1 img,
+.recipies-aitm2 img,
+.recipies-aitm3 img {
+    width: 400px;
+    height: 300px;
+    /* text-align: center; */
+    padding-top: 10px;
+    border-radius: 30px;
+    margin-left: 23px;
+}
+
+.recipies-aitm1 h1,
+.recipies-aitm2 h1,
+.recipies-aitm3 h1 {
+    padding: 10px 0 10px 25px;
+}
+
+.recipies-aitm1 p,
+.recipies-aitm2 p,
+.recipies-aitm3 p {
+    padding: 0 10px 0 20px;
 }
