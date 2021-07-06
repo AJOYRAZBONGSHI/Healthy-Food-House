@@ -94,12 +94,7 @@
 
 .img-area img {
     margin-left: 100px;
-    width: 70%;
-    height: 70vh;
-}
-
-.person {
-    width: 45%;
+    width: 75%;
     height: 70vh;
     padding-left: 50px;
 }
@@ -163,10 +158,79 @@
 .recipies-aitm2 h1,
 .recipies-aitm3 h1 {
     padding: 10px 0 10px 25px;
+    color: green;
 }
 
 .recipies-aitm1 p,
 .recipies-aitm2 p,
 .recipies-aitm3 p {
     padding: 0 10px 0 20px;
+    color: rgb(6, 158, 120);
+}
+
+.social-site {
+    width: 100%;
+    height: 30vh;
+    padding-top: 40px;
+}
+
+.social-site ul {
+    display: flex;
+    list-style: none;
+    margin: 0 10%;
+    box-shadow: 10px 10px 20px gray;
+    text-align: center;
+}
+
+.social-site ul li {
+    padding: 30px 60px;
+    align-items: center;
+    background-color: #EBF8FF;
+    width: 100%;
+}
+
+.social-site ul li h1 {
+    color: green;
+    padding-bottom: 10px;
+}
+
+.social-site ul li p {
+    color: rgb(6, 158, 120);
+}
+
+.social-site ul li i {
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+
+.fa-youtube-square {
+    color: rgb(255, 0, 0);
+}
+
+.fa-instagram-square {
+    color: #e95950;
+}
+
+.fa-facebook-square {
+    color: #4267B2;
+}
+
+.fotter {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background-color: aquamarine;
+}
+
+.fotter h1 {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    padding: 50px 0 20px 0;
+}
+
+.fotter p {
+    text-align: center;
+    color: green;
+    font-size: 20px;
 }
